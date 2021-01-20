@@ -23,7 +23,7 @@ extern UINT memread(UINT addr);
 typedef void (*INSTRHANDLER)(UINT opcode);
 
 /**
- *	Instruction handlers
+ *  Instruction handlers
  */
 
 extern void instr_BR(UINT opcode); 
